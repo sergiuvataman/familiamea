@@ -1,0 +1,98 @@
+/* Stilurile globale */
+body {
+  font-family: "Numele Fontului", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center; /* centrat textul */
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex; /* afișează elementele meniului într-un rând */
+  justify-content: center; /* centrat meniul pe orizontală */
+
+  
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+padding: 10px;
+ 
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ffcc00;
+}
+
+main {
+  padding: 20px;
+}
+
+h1, h2, p {
+  transition: color 0.3s ease;
+  text-align: center; /* centrat titlurile și paragrafele */
+}
+
+img {
+  transition: transform 0.3s ease;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px; /* înălțimea dorită a diviziunii */
+}
+
+.image {
+  width: 250px; /* lățimea dorită a imaginii */
+  height: auto; /* asigurați-vă că înălțimea se ajustează automat pentru a menține proporțiile */
+  transition: transform 0.3s ease;
+}
+
+.image:hover {
+  transform: scale(1.1);
+}
+
+h1 {
+  font-family: 'Numele Fontului', Arial, sans-serif;
+}
+body {
+  font-family: 'Numele Fontului', Arial, sans-serif;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+p {
+  font-size: 18px;
+}
+.menu-item {
+  color: #ff0000; /* Schimbați #ff0000 cu codul de culoare dorit */
+}
+.menu-item:hover {
+  background-color: #f2f2f3; /* Schimbați #f2f2f2 cu codul de culoare dorit */
+}
